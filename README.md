@@ -2,7 +2,7 @@
 Usei a página do google para praticar e treinar os códigos e procurei fazer o máximo parecido,\
 incluindo os linkse as cores.
 
-## O que foi usado na contrucão:
+## O que foi usado na construcão:
 .HTML\
 .CSS
 
