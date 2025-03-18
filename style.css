@@ -1,0 +1,242 @@
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #202124;
+            
+        }
+        body {
+            height: 100vh ;
+            display: flex;
+            flex-direction: column;
+            
+
+        }
+        .b1 {
+            height: 90px;
+            translate: 190px 150px ;
+            
+        }
+        
+
+    
+    h1 {
+        color: rgb(255, 0, 0);
+    }
+
+.logo-google
+{
+    height: 92px;
+}
+
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color:#f2f2f2 ;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 29px;
+    height: 100%;
+}
+
+.link-cabecalho {
+    color: #000000de;
+    font-size: 13px;
+    
+
+}
+
+.icone-produtos {
+    width: 24px;
+    fill: #5f6368 ;
+}
+.botao-entrar {
+    font-family: google sans, roboto,Helvetica,arial, sans-serif;
+    font-weight: 500;
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.botao-entrar:hover {
+    background-color: #1b66c9;
+    box-shadow:  0 1px 3px 1px rgb(66, 64, 67,.15), 0 1px 2px 0 rgba(60, 64, 67,.3);
+    text-decoration: none;
+
+}
+.caixa-teclado,
+.caixa-microfone,
+.caixa-imagem {
+    cursor: pointer;
+    color: #000000de;
+    position: relative;
+
+}
+
+
+.caixa-teclado::after,
+.caixa-imagem::after,
+.caixa-microfone::after{
+    display: none;
+    content: "Ferramentas de introdução";
+    background-color: #4f5355;
+    color: white;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 13px;
+    position: absolute;
+    width: max-content;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 30px);
+    }
+    .caixa-imagem::after{
+        content: 'Pesquisa por imagem';
+    }
+    .caixa-microfone::after{
+        content: "pesquisa por voz";
+    }
+    
+
+.caixa-teclado:hover::after,
+.caixa-imagem:hover::after,
+.caixa-microfone:hover:after {
+
+    display: block
+}
+
+
+.caixa-rodape {
+    padding: 15px 30px ;
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Caixa-rodape--borda {
+    border-bottom: 1px solid #dadce0;
+    padding: 15px 30px ;
+
+    
+
+}
+
+.caixa-icone {
+    display: flex;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+
+}
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 15px;
+        padding: 6px 14px;
+
+
+    }
+    .caixa-links {
+        display: flex;
+        gap: 30px;
+    }
+
+    .caixa-input,
+    .caixa-input:focus-within {
+        width: 583px ;
+        padding: 10px 14px;
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        border: 1px solid #dfe1e5;
+        border-radius: 100px;
+    }
+
+     .caixa-input:hover {
+        box-shadow: 0 1px 6px rgba(32, 33, 36,.28);
+        border-color: transparent;
+    }
+    .caixa-icones {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    .icone-input {
+        width: 20px;
+        fill: #9aa0a6;
+        min-width: 20px;
+        
+    }
+    .icone-teclado {
+       width: 19px; 
+    }
+    .icone-colorido {
+        width:24px ;
+    }
+    .input-pesquisa {
+        width: 100%;
+        height: 22px;
+        border: none;
+        outline: none;
+
+    }
+    .botao{
+        background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    }
+
+    .botao:hover{
+        box-shadow: 0 1 px rgba(0, 0, 0, 0.1);
+        border: 1px solid #dadce0;
+    }
+
+        
+
+
+    .caixa-botoes {
+
+        }
+    .caixa-disponibilizado{
+        color: #4d5156;
+        font-size: 13px;
+        display: flex;
+        gap: 5px;
+        margin-bottom: 25vh;
+    }
+   .caixa-icone:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+    border-radius: 50%;
+
+   }
+            
